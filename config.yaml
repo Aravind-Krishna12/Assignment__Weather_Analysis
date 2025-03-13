@@ -2,5 +2,5 @@ database:
   dbname: postgres
   host: localhost
   password: db_password
-  port: '5432'
+  port: 5432
   username: db_user
