@@ -45,17 +45,17 @@ def insert_data_to_postgres(df, table_name, config_file="config.yaml"):
 # insert_data_to_postgres(df, "weather_data1")
 
 # create a config.yaml file if it does not exist.
-import os
+# import os
 
-if not os.path.exists("config.yaml"):
-    config = {
-        "database": {
-            "dbname": "postgres",
-            "host": "localhost",
-            "username": "db_user",
-            "password": "db_password",
-            "port": "5432"
-        }
-    }
-    with open("config.yaml", "w") as f:
-        yaml.dump(config, f)
+# if not os.path.exists("config.yaml"):
+#     config = {
+#         "database": {
+#             "dbname": "postgres",
+#             "host": "localhost",
+#             "username": "db_user",
+#             "password": "db_password",
+#             "port": "5432"
+#         }
+#     }
+#     with open("config.yaml", "w") as f:
+#         yaml.dump(config, f)
